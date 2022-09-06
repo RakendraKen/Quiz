@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. 1+1 = ..."
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <RadioGroup
+            android:id="@+id/rgJawaban1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7sp">
+
+            <RadioButton
+                android:id="@+id/jwb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textSize="17sp"/>
+
+            <RadioButton
+                android:id="@+id/jwb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textSize="17sp"/>
+
+            <RadioButton
+                android:id="@+id/jwb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:textSize="17sp"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Indonesia Merdeka Ditahun..."
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rgJawaban2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="7sp">
+
+            <RadioButton
+                android:id="@+id/jwb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19 agustus"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/jwb5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 maret"
+                android:textSize="17sp"/>
+
+            <RadioButton
+                android:id="@+id/jwb6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="17 agustus"
+                android:textSize="17sp"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Bunyi Sila ke-1 Adalah..."
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rgJawaban3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="7sp">
+
+            <RadioButton
+                android:id="@+id/jwb7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ketuhanan yang maha esa"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/jwb8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="kemanusian yang adil dan beradab"
+                android:textSize="17sp"/>
+
+            <RadioButton
+                android:id="@+id/jwb9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="persatuan indonesia"
+                android:textSize="17sp"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Presiden Pertama RI Adalah..."
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rgJawaban4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="7sp">
+
+            <RadioButton
+                android:id="@+id/jwb10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sukarno"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/jwb11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="soeharto"
+                android:textSize="17sp"/>
+
+            <RadioButton
+                android:id="@+id/jwb12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="soekarno"
+                android:textSize="17sp"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Lambang Pancasila ke-1 adalah..."
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rgJawaban5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="7sp">
+
+            <RadioButton
+                android:id="@+id/jwb13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rantai"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/jwb14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bintang"
+                android:textSize="17sp"/>
+
+            <RadioButton
+                android:id="@+id/jwb15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Padi Dan Kapas"
+                android:textSize="17sp"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. 90 + 20 = "
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rgJawaban6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="7sp">
+
+            <RadioButton
+                android:id="@+id/jwb16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/jwb17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="120"
+                android:textSize="17sp"/>
+
+            <RadioButton
+                android:id="@+id/jwb18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="110"
+                android:textSize="17sp"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. 890 + 210 = "
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rgJawaban7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="7sp">
+
+            <RadioButton
+                android:id="@+id/jwb19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1100"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/jwb20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1020"
+                android:textSize="17sp"/>
+
+            <RadioButton
+                android:id="@+id/jwb21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1110"
+                android:textSize="17sp"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. 2190 + 4210 ="
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rgJawaban8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="7sp">
+
+            <RadioButton
+                android:id="@+id/jwb22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3120"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/jwb23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5920"
+                android:textSize="17sp"/>
+
+            <RadioButton
+                android:id="@+id/jwb24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6400"
+                android:textSize="17sp"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9. Bunyi Sila Ke-3..."
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rgJawaban9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="7sp">
+
+            <RadioButton
+                android:id="@+id/jwb25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ketuhanan Yang Maha Esa "
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/jwb26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="persatuan indonesia"
+                android:textSize="17sp"/>
+
+            <RadioButton
+                android:id="@+id/jwb27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Keadialan Sosial Bagi Seluruh Rakyat Indonesia"
+                android:textSize="17sp"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10. 3198 + 9032 = "
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rgJawaban10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="7sp">
+
+            <RadioButton
+                android:id="@+id/jwb28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13.230"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/jwb29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12.230"
+                android:textSize="17sp"/>
+
+            <RadioButton
+                android:id="@+id/jwb30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11.230"
+                android:textSize="17sp"/>
+        </RadioGroup>
+        <Button
+            android:id="@+id/pol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kirim"
+            android:background="@color/purple_200"
+            android:layout_gravity="center"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+</ScrollView>
